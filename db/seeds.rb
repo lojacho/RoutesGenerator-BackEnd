@@ -7,3 +7,8 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Car.create([
+  { carriage_plate: "ABC123", capacity: 20 },
+  { carriage_plate: "XYZ789", capacity: 15 }
+])
